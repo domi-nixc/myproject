@@ -1,0 +1,62 @@
+
+.navbar{
+    background-color:rgb(185,187,163);
+    position: sticky;
+    width: 100%;
+    display: flex;
+    height: min-content;
+    text-align: left;
+    font-size:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.navbar-icon{
+    padding: 0%;
+    border:10px;
+    height: 100px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    text-decoration: none; 
+    color:black"
+}
+
+.navbar-text{
+    margin: 10px; 
+    display: flex; 
+    width: 100%; 
+    justify-content: space-between;
+    color:black;
+}
+
+.genres{
+    display:flex;
+    overflow: hidden;
+}
+
+.poster{
+    clip-path: polygon(22% 0, 100% 0, 78% 100%, 0 100%);
+    width: 300px;
+}
+
+.poster-scroll{
+    display: flex; 
+    overflow-x: auto; 
+    overflow-y: hidden
+}
+
+.movie-name{
+    width: 78%;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.faqs{
+    font-size: 30px;
+    margin: 20px
+}
